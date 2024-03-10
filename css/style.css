@@ -312,6 +312,7 @@ h1{
 .study-section {
   padding: 4em 0;
 }
+
 .study-grid h3 {
   font-family: 'Nunito-Bold';
   font-size: 2.5em;
@@ -328,12 +329,13 @@ h1{
   color: #393b3a;
   padding: 1.1em 0 0 0;
   }
-.study-grid ul li {
-	display: inline;
-	border-radius: 8px;
-	font-size: 1.1em;
-	background-color: #00c3ff;
-	padding: 3px;
+  .study1 p4{
+    font-size: 1.5em;
+    color: #393b3a;
+  }
+.study-grid ul {
+	font-size: 1.3em;
+
 }
 .study-grid label {
   font-size: 0.8em;
@@ -370,16 +372,44 @@ h1{
  }
  .study-grid p3{
   font-size: 1em;
+  margin-bottom: 10px;
+ }
+ .study-grid a {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+	font-weight: bolder;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 1em;
  }
 .study-grid h4 p1 {
 	font-size: 1.3em;
 }
 .study1 {
   padding: 1em 0 0;
+  border: 1px solid gray;
+  padding: 10px;
 }
 .study2 {
   padding: 2em 0 0;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 15px;
 }
+.study3 {
+  padding: 2em 0 0;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-top: 15px;
+}
+.study4 {
+  padding: 2em 0 0;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-top: 15px;
+}
+
 .service-section {
   text-align: center;
   padding: 4em 0;
