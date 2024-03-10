@@ -324,10 +324,17 @@ h1{
   font-size: 0.9em;
 }
 .study-grid p {
-  font-size: 1.2em;
+  font-size: 2.0em;
   color: #393b3a;
   padding: 1.1em 0 0 0;
   }
+.study-grid ul li {
+	display: inline;
+	border-radius: 8px;
+	font-size: 1.1em;
+	background-color: #00c3ff;
+	padding: 3px;
+}
 .study-grid label {
   font-size: 0.8em;
   color: #9CA69D;
@@ -358,6 +365,15 @@ h1{
   text-transform: capitalize;
   color: rgb(29, 26, 26);
   }
+ .study-grid p2 {
+   font-size: 1em;
+ }
+ .study-grid p3{
+  font-size: 1em;
+ }
+.study-grid h4 p1 {
+	font-size: 1.3em;
+}
 .study1 {
   padding: 1em 0 0;
 }
